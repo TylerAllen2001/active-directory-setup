@@ -13,16 +13,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
 
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
 - Windows 10 (21H2)
-
+-Microsoft Azure
 <h2>Configuration Steps</h2>
 
-- Step 1
+- Create Resource Groups in Microsoft Azure
 - Step 2
 - Step 3
 - Step 4
