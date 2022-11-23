@@ -67,7 +67,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 </p>
 <p>
-We have to join Client-1 to the domain in order to do so navigate to your system settings and go to about. Off to the right select rename this pc (advanced). From there select to change the domain. Enter "mydomain.com" after that enter your credentials from mydomain.com\labuser. Your computer will restart and then client-1 will be a part of mydomain.com
+  - Join Client-1 to the domain so you can navigate to your system settings and go to about.
+  - To the right, select " rename this pc " (advanced). Select to change the domain to " mydomain.com ".
+  - Enter credentials from mydomain.com\labuser. The VM will restart and Client-1 will be part of mydomain.com
 </p>
 <br />
 <p>
