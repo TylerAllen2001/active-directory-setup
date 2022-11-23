@@ -63,17 +63,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 </p>
 <img src="https://i.imgur.com/kvcm2cY.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<p>
+
   - Join Client-1 to the domain so you can navigate to your system settings and go to about.
   - To the right, select " rename this pc " (advanced). Select to change the domain to " mydomain.com ".
   - Enter credentials from mydomain.com\labuser. The VM will restart and Client-1 will be part of mydomain.com
-</p>
-<br />
-<p>
-  <p>
+
 <img src="https://i.imgur.com/Ze0Em5e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
