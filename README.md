@@ -69,27 +69,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Enter credentials from mydomain.com\labuser. The VM will restart and Client-1 will be part of mydomain.com
 
 <img src="https://i.imgur.com/Ze0Em5e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Wonderufl Client-1 is now a part of the domain. Now we will set up remote desktop for non-administrative users on Client-1. We have to log into Client-1 as an admin and open system properties. Click on "Remote Desktop", allow "domain users" access to remote desktop. After completing those steps you should be able to log into Client-1 as a normal user.
-</p>
-<br />
 
-<p>
-  <p>
+- Client-1 is now part of the domain. Now we will set up remote desktop for non-admin users for Client-1
+- Log into Client-1 as a admin and open system properties.
+- Click " Remote Desktop " and allow " domain users " access to remote desktop.
+- You should now be able to log into Client-1 as a non admin user.
 <img src="https://i.imgur.com/SApOKiE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lastly to verify that noraml users can RDP into Client-1 we will use a script to generate thousands of users into the domain. We will input the script in powershell, after the users are created we will select one and RDP into Client-1.
-</p>
-<br />
+
+- To make sure non admin users can RDP into Client-1, we will use a script to generate thousands of users into the domain controller. 
+- Open powershell and input the script using https://github.com/TylerAllen2001/Generate-Names-Powershell/blob/main/README.md
+- The users will begin to be created. Select one and RDP into Client-1
 <img src="https://i.imgur.com/EzWG8ug.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<p>
-<p>
-  <p>
+
 <img src="https://i.imgur.com/Gkpe68K.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <img src="https://i.imgur.com/n3gMwQV.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
-As you can see the Powershell script created a user with the username "bab.hubo" We were able to login to Client-1 with his credentials as a normal user. 
+
+  - The script created a user named " bab.hubo". 
+  - We are now able to login to Client-1 as this user.
 </p>
