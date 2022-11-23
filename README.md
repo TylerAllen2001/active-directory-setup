@@ -54,7 +54,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Add Jane to the domain admins security group
 <img src="https://i.imgur.com/hL7g5Y5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/kcgvzdE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-From now on you can use Jane_admin as the administrator account. Now we will join Client-1 to the domain (mydomain.com) from the azure portal we will change client-1's DNS settings to the DC's Private IP address. After you do that restart Client-1 from within the Azure portal. Our picture below shows verification that client-1 is on the DC-1 DNS. 
+
+- Jane_admin can now be used as a administrator account. 
+- Join Client-1 from Azure Portal and change Client-1's DNS settings to DC's Private IP Address. 
+- Restart Client-1 from within Azure Portal
 </p>
 <img src="https://i.imgur.com/jbrGTXW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
