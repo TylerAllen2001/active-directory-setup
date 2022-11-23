@@ -46,4 +46,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - After creation, restart the VM and log back into DC-1 as mydomain.com\labuser. 
 - You will now be able to run AD Users & Computers.
 <img src="https://i.imgur.com/cGjvRke.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+
+- We can now create Organizational Units (OU). 
+- Create a OU named _EMPLOYEES and _ADMINS ( must be named exactly or rest of project won't work ) You can do this by right-clicking domain area and selecting new Organizational Unit.
+- Click in OU and right click, select new and select User.
+- Fill out information for new user. This user will be named Jane Doe. She will be an admin with the username Jane_Admin. 
+- Add Jane to the domain admins security group
+<img src="https://i.imgur.com/hL7g5Y5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kcgvzdE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
